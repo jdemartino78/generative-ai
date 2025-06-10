@@ -44,7 +44,7 @@ def main():
     # 1. BigQuery Setup
     print("--- Setting up BigQuery ---")
     BIG_QUERY_DATASET = getenv("BIG_QUERY_DATASET", "quickbot_default_bq_dataset")
-    GCLOUD_PROJECT = getenv("GCLOUD_PROJECT", "my-gcloud-project")
+    GCLOUD_PROJECT = getenv("GCLOUD_PROJECT", "vertex-vision-382819")
     create_dataset(BIG_QUERY_DATASET)
     create_table(
         BIG_QUERY_DATASET, SEARCH_APPLICATION_TABLE, SearchApplication.__schema__()
