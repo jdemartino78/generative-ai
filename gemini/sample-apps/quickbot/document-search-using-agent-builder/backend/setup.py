@@ -53,8 +53,8 @@ def main():
     # 2. Vertex AI Search Setup
     print("--- Setting up Vertex AI Search ---")
     VERTEX_AI_LOCATION = getenv("VERTEX_AI_LOCATION", "global")
-    VERTEX_AI_DATASTORE_ID = getenv("VERTEX_AI_DATASTORE_ID", "quickbot_alphabet_pdfs_ds")
-    VERTEX_AI_ENGINE_ID = getenv("VERTEX_AI_ENGINE_ID", "quickbot_alphabet_search_engine")
+    VERTEX_AI_DATASTORE_ID = getenv("VERTEX_AI_DATASTORE_ID", "google_1717173229679")
+    VERTEX_AI_ENGINE_ID = getenv("VERTEX_AI_ENGINE_ID", "web_1717173172586")
     GCS_SOURCE_URI = "gs://cloud-samples-data/gen-app-builder/search/alphabet-investor-pdfs/*.pdf"
     DATASTORE_DISPLAY_NAME_PREFIX = "Alphabet Investor Docs DS"
     ENGINE_DISPLAY_NAME_PREFIX = "Alphabet Investor Engine"
